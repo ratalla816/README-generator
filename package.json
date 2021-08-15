@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "create a high-quality README file using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratalla816/README-generator.git"
+  },
+  "author": "Rob Atalla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ratalla816/README-generator/issues"
+  },
+  "homepage": "https://github.com/ratalla816/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
