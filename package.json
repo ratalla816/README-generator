@@ -18,5 +18,6 @@
   "homepage": "https://github.com/ratalla816/README-generator#readme",
   "dependencies": {
     "inquirer": "^8.1.2"
-  }
+  },
+  "devDependencies": {}
 }
