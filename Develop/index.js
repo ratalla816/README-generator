@@ -88,8 +88,9 @@ function init() {
         })
     },
 
-    err => {
-        console.log(`Oops! You need to fill out the form completely!`);
+    
+    _err => {
+        console.log(`unhandledRejection`);
 
     })
 };

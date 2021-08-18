@@ -1,11 +1,11 @@
 # Awesome Sauce
   
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br/>
+  ![badge](https://img.shields.io/badge/license-WTFPL-brightgreen)<br/>
   
   
   # Description
   
-   This application makes sauce that is awesome.
+   It makes sauce that is awesome
 
   ## Table of Contents
   - [Description](#description)
@@ -17,21 +17,21 @@
   - [Contact](#contact)
 
   # Installation
-  1. Turn on computer. 2. Wait ten seconds. 3. Press enter. 
+  turn on computer, press enter
  
   # Usage
-  This application should be used very carefully. 
+  very carefully
   
   # Contributors
-  Rob Atalla, God
+  Moi
   
   # Test
-  Stare at the screen angrily. 
+  keep pressing enter
   
   # License
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![badge](https://img.shields.io/badge/license-WTFPL-brightgreen)
   <br/>
-  This application is covered by the MIT license. 
+  This application is covered by the WTFPL license. 
 
   ## Contact:
   Visit my GitHub page: <a href="https://github.com/ratalla816/"></a>
