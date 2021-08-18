@@ -5,7 +5,7 @@
   
   # Description
   
-   It makes sauce that is awesome
+   It makes sauce that is awesome.
 
   ## Table of Contents
   - [Description](#description)
@@ -17,16 +17,16 @@
   - [Contact](#contact)
 
   # Installation
-  Turn on computer, press enter
+  Turn on computer, press enter.
  
   # Usage
-  This application should be used very carefully
+  It will be used very carefully.
   
   # Contributors
   Rob Atalla, God, Spooki the Cat
   
   # Test
-  Stare at the screen aggressively
+  Stare at the screen angrily. 
   
   # License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -34,7 +34,7 @@
   This application is covered by the MIT license. 
 
   ## Contact:
-  Visit my GitHub page: <a href="https://github.com/ratalla816/"></a>
+  Click [here] (github.com/ratalla816) to visit my GitHub profile.
   <br/>
   Or, fire one off: <a href="mailto:rob.atalla@gmail.com">rob.atalla@gmail.com</a><br>
  

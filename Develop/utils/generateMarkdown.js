@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   This application is covered by the ${data.license} license. 
 
   ## Contact:
-  Visit my GitHub page: <a href="https://github.com/${data.username}/"></a>
+  Click [here] (github.com/${data.username}) to visit my GitHub profile.
   <br/>
   Or, fire one off: <a href="mailto:${data.email}">${data.email}</a><br>
  `;
