@@ -5,7 +5,7 @@
   
   # Description
   
-   It makes sauce that is awesome
+   This application makes sauce that is awesome.
 
   ## Table of Contents
   - [Description](#description)
@@ -14,13 +14,13 @@
   - [License](#license)
   - [Contributors](#contributors)
   - [Test](#test)
-  - [Questions](#questions)
+  - [Contact](#contact)
 
   # Installation
-  Turn on your computer and press "enter". It's so EASY!
+  1. Turn on computer. 2. Wait ten seconds. 3. Press enter. 
  
   # Usage
-  This application should be used very carefully..
+  This application should be used very carefully. 
   
   # Contributors
   Rob Atalla, God
@@ -33,8 +33,8 @@
   <br/>
   This application is covered by the MIT license. 
 
-  ## Questions:
-  Visit my GitHub page: <a href="https://github.com/ratalla816"></a>
+  ## Contact:
+  Visit my GitHub page: <a href="https://github.com/ratalla816/"></a>
   <br/>
   Or, fire one off: <a href="mailto:rob.atalla@gmail.com">rob.atalla@gmail.com</a><br>
  

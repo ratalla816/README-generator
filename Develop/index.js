@@ -68,7 +68,7 @@ const questions = [
 function writeToFile(fileName, data) {
     ("README.md", generateMarkdown.generateMarkdown(data), function (err){
         if(err) throw err;
-        console.log("Look at your spiffy new README!")    
+        console.log("Oops! You need to fill out the form completely!")    
     })
 }
 
@@ -83,13 +83,13 @@ function init() {
                 console.log(err)
             }
             else {
-                console.log('generated README')
+                console.log('Look at your spiffy new README!')
             }
         })
     },
 
     err => {
-        console.log(`Oops! You need to fill out the form completely.`);
+        console.log(`Oops! You need to fill out the form completely!`);
 
     })
 };

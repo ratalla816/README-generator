@@ -35,7 +35,7 @@ function generateMarkdown(data) {
   - [License](#license)
   - [Contributors](#contributors)
   - [Test](#test)
-  - [Questions](#questions)
+  - [Contact](#contact)
 
   # Installation
   ${data.installation}
@@ -54,8 +54,8 @@ function generateMarkdown(data) {
   <br/>
   This application is covered by the ${data.license} license. 
 
-  ## Questions:
-  Visit my GitHub page: <a href="https://github.com/${data.username}"></a>
+  ## Contact:
+  Visit my GitHub page: <a href="https://github.com/${data.username}/"></a>
   <br/>
   Or, fire one off: <a href="mailto:${data.email}">${data.email}</a><br>
  `;
