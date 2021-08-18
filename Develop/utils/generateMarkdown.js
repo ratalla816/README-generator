@@ -1,7 +1,7 @@
 
-// TODO: Create a function that returns a license badge based on which license is passed in
+
 // If there is no license, return an empty string
-// ${data.description}
+// ${data.description} //
 // function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
@@ -14,49 +14,53 @@
 
 // TODO: Create a function to generate markdown for README
 // function generateMarkdown(data) {
-//   return `# ${data.title}
 
-// **** https://img.shields.io/github/license/<Github-Username>/<Repository> **** //
-// **** [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/) **** //
+// TODO: Create a function that returns a license badge based on which license is passed in
+function generateMarkdown(data) {
 
-const renderBadges = (badges,user,repo) => {
-  let badgeArray = [];
-  if(!badges) {
-    return '';
-  }
+ //   return `# ${data.title}
+  return `# ${data.title}
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br/>
+  
+  
+  # Description
+  
+   ${data.description}
 
-  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Test](#test)
+  - [Questions](#questions)
 
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-    
-  ('![GitHub language count](https://img.shields.io/github/languages/count/')
-      
-     
-     ('![GitHub top language](https://img.shields.io/github/languages/top/')
-       
-     
-     ('![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/')
-       
-      
-     ('![GitHub repo size](https://img.shields.io/github/repo-size/')
-      
-    
-     ('![GitHub issues](https://img.shields.io/github/issues-raw/')
-      
-     ('![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/')
-      
-      
-     ('![GitHub release (latest by date)](https://img.shields.io/github/v/release/')
-     
-    }
+  # Installation
+  ${data.installation}
  
-  return badges
+  # Usage
+  ${data.usage}
+  
+  # Contributors
+  ${data.contributors}
+  
+  # Test
+  ${data.test}
+  
+  # License
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  <br/>
+  This application is covered by the ${data.license} license. 
 
-`;
+  ## Questions:
+  Visit my GitHub page: <a href="https://github.com/${data.username}"></a>
+  <br/>
+  Or, fire one off: <a href="mailto:${data.email}">${data.email}</a><br>
+ `;
 
+}
 
 module.exports = generateMarkdown;
+
