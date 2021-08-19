@@ -3,10 +3,10 @@
   
   # Description
   
-   It makes sauce that is awesome
+   It makes sauce that is awesome.
+   </br>
 
-   # Badge
-  ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+   ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   <br/>
   
 
@@ -22,16 +22,16 @@
   - [Contact](#contact)
 
   # Installation
-  Press enter
+  Press any key to continue.
  
   # Usage
-  very carefully
+  It will be used very carefully.
 
   # Screenshot
-  ![Screenshot](utils/images/screenshot.png)
+  ![Screenshot](/utils/images/screenshot.png)
 
   # Features
-  badges 
+  badges
   
   # Acknowledgements
   Rob Atalla, God, Spooki the Cat
