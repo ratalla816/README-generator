@@ -28,32 +28,34 @@ const questions = [
         name: "usage",
         message: "How will your application be used?"
     },
+
+    {
+        type: "list",
+            message: "what license are you using? ",
+            name: "license",
+            choices: ["GNU", "ISC", "MIT", "Mozilla", "WTFPL"]
+    },
+
+    {
+        type: "input",
+        name: "features",
+        message: "What are the main features of the application?"
+
+    },
     
     {
         type: "input",
-        name: "contributors",
+        name: "acknowledgements",
         message: "Who contributed to this project?"
     },
     
     {
         type: "input",
-        name: "test",
+        name: "testing",
         message: "What is the process used to test this application?"
     },
     
-    {
-        type: "list",
-            message: "what license are you using? ",
-            name: "license",
-            choices: ["None", "ISC", "MIT", "Mozilla", "WTFPL"]
-    },
-    
-    {
-        type: "input",
-        name: "username",
-        message: "Enter your Github username"
-    },
-    
+  
     {
         type: "input",
         name: "email",
@@ -95,7 +97,7 @@ function init() {
     })
 };
 
-// Function call to initialize app
+
 init();
 
 

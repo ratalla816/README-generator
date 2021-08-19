@@ -20,9 +20,7 @@ function generateMarkdown(data) {
 
  //   return `# ${data.title}
   return `# ${data.title}
-  
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br/>
-  
+ 
   
   # Description
   
@@ -32,9 +30,10 @@ function generateMarkdown(data) {
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Features](#features)
+  - [Acknowledgements](#acknowledgements)
   - [License](#license)
-  - [Contributors](#contributors)
-  - [Test](#test)
+  - [Testing](#testing)
   - [Contact](#contact)
 
   # Installation
@@ -42,22 +41,23 @@ function generateMarkdown(data) {
  
   # Usage
   ${data.usage}
+
+  # Features
+  ${data.features}
   
-  # Contributors
-  ${data.contributors}
-  
+  # Acknowledgements
+  ${data.acknowledgements}
+    
+  # License
+  ![badge](https://img.shields.io/badge/license-${data.license}-informational)
+  <br/>
+  Permission to use this application is granted under the ${data.license} license. 
+
   # Test
   ${data.test}
-  
-  # License
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
-  <br/>
-  This application is covered by the ${data.license} license. 
 
   ## Contact:
-  Visit my GitHub page: <a href="https://github.com/${data.username}/"></a>
-  <br/>
-  Or, fire one off: <a href="mailto:${data.email}">${data.email}</a><br>
+  Holler with questions: <a href="mailto:${data.email}">${data.email}</a><br>
  `;
 
 }
