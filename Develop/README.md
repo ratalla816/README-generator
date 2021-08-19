@@ -22,7 +22,7 @@
   - [Contact](#contact)
 
   # Installation
-  Press any key to continue
+  Press any key to continue. 
  
   # Usage
   It will be used very carefully.
@@ -31,7 +31,7 @@
   ![Screenshot](/utils/images/screenshot.png)
 
   # Features
-  badges
+  Badges
   
   # Acknowledgements
   Rob Atalla, God, Spooki the Cat
@@ -41,8 +41,8 @@
   <br/>
   Permission to use this application is granted under the ISC license. 
 
-  # Test
-  undefined
+  # Testing
+  Stare at the screen angrily.
 
   ## Contact:
   Holler with questions: <a href="mailto:rob.atalla@gmail.com">rob.atalla@gmail.com</a><br>

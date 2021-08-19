@@ -62,8 +62,8 @@ function generateMarkdown(data) {
   <br/>
   Permission to use this application is granted under the ${data.license} license. 
 
-  # Test
-  ${data.test}
+  # Testing
+  ${data.testing}
 
   ## Contact:
   Holler with questions: <a href="mailto:${data.email}">${data.email}</a><br>
