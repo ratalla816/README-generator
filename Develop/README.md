@@ -1,9 +1,9 @@
-# Awesome Sauce
+# something
  
   
   # Description
   
-   It makes sauce that is awesome.
+   something else
    </br>
 
    ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
@@ -22,19 +22,19 @@
   - [Contact](#contact)
 
   # Installation
-  Press any key to continue. 
+  press enter
  
   # Usage
-  It will be used very carefully.
+  very carefully
 
   # Screenshot
-  ![Screenshot](/utils/images/screenshot.png)
+  ![Screenshot](utils/images/screenshot.png)
 
   # Features
-  Badges
+  badges
   
   # Acknowledgements
-  Rob Atalla, God, Spooki the Cat
+  Rob, Nathan
     
   # License
   ![badge](https://img.shields.io/badge/license-ISC-informational)
@@ -42,7 +42,7 @@
   Permission to use this application is granted under the ISC license. 
 
   # Testing
-  Stare at the screen angrily.
+  who knows?
 
   ## Contact:
   Holler with questions: <a href="mailto:rob.atalla@gmail.com">rob.atalla@gmail.com</a><br>

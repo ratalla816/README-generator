@@ -97,11 +97,8 @@ function init() {
     },
 
     
-    _err => {
-        console.log(`unhandledRejection`);
-
-    })
-};
+   
+    )}
 
 
 init();
