@@ -26,10 +26,16 @@ function generateMarkdown(data) {
   
    ${data.description}
 
+   # Badge
+  ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  <br/>
+  
+
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Screenshot](#screenshot)
   - [Features](#features)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
@@ -41,6 +47,9 @@ function generateMarkdown(data) {
  
   # Usage
   ${data.usage}
+
+  # Screenshot
+  ![Screenshot](${data.screenshot})
 
   # Features
   ${data.features}

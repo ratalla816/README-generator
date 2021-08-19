@@ -20,7 +20,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "Describe the installation process"
+        message: "Describe the installation process."
     },
     
     {
@@ -30,25 +30,31 @@ const questions = [
     },
 
     {
-        type: "list",
-            message: "what license are you using? ",
-            name: "license",
-            choices: ["GNU", "ISC", "MIT", "Mozilla", "WTFPL"]
+        type: "input",
+        name: "screenshot",
+        message: "please enter relative path for your screenshot image."
     },
 
     {
         type: "input",
         name: "features",
         message: "What are the main features of the application?"
-
     },
-    
+
     {
         type: "input",
         name: "acknowledgements",
         message: "Who contributed to this project?"
     },
-    
+
+    {
+        type: "list",
+        message: "what license are you using? ",
+        name: "license",
+        choices: ["GNU", "ISC", "MIT", "Mozilla", "WTFPL"]
+    },
+     
+      
     {
         type: "input",
         name: "testing",
@@ -59,7 +65,7 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "Enter your email address"
+        message: "Enter your email address."
     },
     
         
