@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   
    ${data.description}
 
-   # Badge
+   ### Badge
   ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   <br/>
   
