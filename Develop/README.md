@@ -22,7 +22,7 @@
   - [Contact](#contact)
 
   # Installation
-  Press any key to continue.
+  Press any key to continue
  
   # Usage
   It will be used very carefully.
@@ -37,9 +37,9 @@
   Rob Atalla, God, Spooki the Cat
     
   # License
-  ![badge](https://img.shields.io/badge/license-MIT-informational)
+  ![badge](https://img.shields.io/badge/license-ISC-informational)
   <br/>
-  Permission to use this application is granted under the MIT license. 
+  Permission to use this application is granted under the ISC license. 
 
   # Test
   undefined
