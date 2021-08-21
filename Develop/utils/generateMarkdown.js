@@ -20,17 +20,14 @@ function generateMarkdown(data) {
 
  //   return `# ${data.title}
   return `# ${data.title}
- 
+
+  ![badge](https://img.shields.io/github/languages/top/${data.github}/${data.repo})
+  <br/> 
   
-  # Description
+  ## Description
   
    ${data.description}
-   </br>
-
-   ![badge](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-  <br/>
-  
-
+ 
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -42,27 +39,27 @@ function generateMarkdown(data) {
   - [Testing](#testing)
   - [Contact](#contact)
 
-  # Installation
+  ## Installation
   ${data.installation}
  
-  # Usage
+  ## Usage
   ${data.usage}
 
-  # Screenshot
+  ## Screenshot
   ![Screenshot](${data.screenshot})
 
-  # Features
+  ## Features
   ${data.features}
   
   # Acknowledgements
   ${data.acknowledgements}
     
-  # License
+  ## License
   ![badge](https://img.shields.io/badge/license-${data.license}-informational)
   <br/>
   Permission to use this application is granted under the ${data.license} license. 
 
-  # Testing
+  ## Testing
   ${data.testing}
 
   ## Contact:

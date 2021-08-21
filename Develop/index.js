@@ -10,8 +10,26 @@ const questions = [
         name: "title",
         message: "Application title?"
     },
-    
+
     {
+        type: "input",
+        name: "github",
+        message: "Enter your Github username."
+    },
+
+    {
+        type: "input",
+        name: "repo",
+        message: "Enter the name of your application Github repository."
+    },
+
+    {
+        type: "input",
+        name: "description",
+        message: "Enter a brief description of your application."
+    },
+    
+   {
         type: "input",
         name: "description",
         message: "Enter a brief description of your application."
