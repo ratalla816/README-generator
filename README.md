@@ -42,7 +42,7 @@
   This application will be used as a form template to create high-quality customized README files. 
 
   ## Screenshot
-  ![Screenshot](develop/utils/images/screenshot.jpg)
+  ![Screenshot](utils/images/screenshot.jpg)
 
   ## Features
   The main features include badges that indicate the primary coding languages used in the application, as well as the type of license used. It also allows the user to display images and their email address. 
