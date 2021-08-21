@@ -22,7 +22,7 @@
   - [Documentation](#documentation)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
-  - [Tuorial](tutorial)
+  - [Tuorial](#tutorial)
   - [Features](#features)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
