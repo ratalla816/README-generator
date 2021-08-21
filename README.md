@@ -22,6 +22,7 @@
   - [Documentation](#documentation)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
+  - [Tuorial](tutorial)
   - [Features](#features)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
@@ -43,6 +44,10 @@
 
   ## Screenshot
   ![Screenshot](develop/utils/images/screenshot.jpg)
+  
+  ## Tutorial
+  
+  ![Screenshot](develop/utils/images/walkthrough.gif)
 
   ## Features
   The main features include badges that indicate the primary coding languages used in the application, as well as the type of license used. It also allows the user to display images and their email address. 
