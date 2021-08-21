@@ -5,6 +5,7 @@ const fs = require("fs");
 
 // TODO: Create an array of questions for user input
 const questions = [
+    
     {
         type: "input",
         name: "title",
@@ -69,7 +70,7 @@ const questions = [
         type: "list",
         message: "what license are you using? ",
         name: "license",
-        choices: ["GNU", "ISC", "MIT", "Mozilla", "WTFPL"]
+        choices: ["AAL", "ISC", "MIT", "NTP", "W3C"]
     },
      
       

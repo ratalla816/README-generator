@@ -57,16 +57,18 @@ function generateMarkdown(data) {
   ## License
   ![badge](https://img.shields.io/badge/license-${data.license}-informational)
   <br/>
-  Permission to use this application is granted under the ${data.license} license. 
+  Permission to use this application is granted under the ${data.license} license. <https://opensource.org/licenses/${data.license}>
+
 
   ## Testing
   ${data.testing}
 
   ## Contact:
-  Holler with questions: <a href="mailto:${data.email}">${data.email}</a><br>
+  Holler at me! <a href="mailto:${data.email}">${data.email}</a><br>
  `;
 
 }
 
 module.exports = generateMarkdown;
+
 
