@@ -5,13 +5,32 @@ const fs = require("fs");
 
 // TODO: Create an array of questions for user input
 const questions = [
+      
     {
         type: "input",
         name: "title",
         message: "Application title?"
     },
-    
+
     {
+        type: "input",
+        name: "github",
+        message: "Enter your Github username."
+    },
+
+    {
+        type: "input",
+        name: "repo",
+        message: "Enter the name of your application Github repository."
+    },
+
+    {
+        type: "input",
+        name: "description",
+        message: "Enter a brief description of your application."
+    },
+    
+   {
         type: "input",
         name: "description",
         message: "Enter a brief description of your application."
@@ -19,8 +38,8 @@ const questions = [
     
     {
         type: "input",
-        name: "installation",
-        message: "Describe the installation process"
+        name: "documentation",
+        message: "Describe the installation process and operating instructions."
     },
     
     {
@@ -28,56 +47,56 @@ const questions = [
         name: "usage",
         message: "How will your application be used?"
     },
-    
+
     {
         type: "input",
-        name: "contributors",
+        name: "screenshot",
+        message: "please enter relative path for your screenshot image."
+    },
+
+    {
+        type: "input",
+        name: "features",
+        message: "What are the main features of the application?"
+    },
+
+    {
+        type: "input",
+        name: "acknowledgements",
         message: "Who contributed to this project?"
     },
-    
+
+    {
+        type: "list",
+        message: "what license are you using? ",
+        name: "license",
+        choices: ["AAL", "ISC", "MIT", "NTP", "W3C"]
+    },
+     
+      
     {
         type: "input",
-        name: "test",
+        name: "testing",
         message: "What is the process used to test this application?"
     },
     
-    {
-        type: "list",
-            message: "what license are you using? ",
-            name: "license",
-            choices: ["None", "ISC", "MIT", "Mozilla", "WTFPL"]
-    },
-    
-    {
-        type: "input",
-        name: "username",
-        message: "Enter your Github username"
-    },
-    
+  
     {
         type: "input",
         name: "email",
-        message: "Enter your email address"
-    },
-    
+        message: "Enter your email address."
+    }
         
     ];
-    
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    ("README.md", generateMarkdown.generateMarkdown(data), function (err){
-        if(err) throw err;
-        console.log("Oops! You need to fill out the form completely!")    
-    })
-}
-
+// end of question array //
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(function(userInput) {
         
         const markdownString = generateMarkdown(userInput)
+
+        // TODO: Create a function to write README file
         fs.writeFile('README.md', markdownString, function(err) {
             if(err) {
                 console.log(err)
@@ -88,16 +107,7 @@ function init() {
         })
     },
 
+    )}
     
-    _err => {
-        console.log(`unhandledRejection`);
-
-    })
-};
-
 // Function call to initialize app
 init();
-
-
-
-
