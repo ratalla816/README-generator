@@ -4,7 +4,10 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 // TODO: Create an array of questions for user input
-const questions = [
+// const questions = [
+
+    inquirer
+    .prompt([
     
     {
         type: "input",
@@ -85,40 +88,50 @@ const questions = [
         type: "input",
         name: "email",
         message: "Enter your email address."
-    },
-    
+    }
+])
         
-    ];
-    
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    ("README.md", generateMarkdown.generateMarkdown(data), function (err){
-        if(err) throw err;
-        console.log("Oops! You need to fill out the form completely!")    
-    })
-}
-
+    // ];
+// end of question array //
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.prompt(questions).then(function(userInput) {
+// function init() {
+//     inquirer.prompt(questions).then(function(userInput) {
         
-        const markdownString = generateMarkdown(userInput)
-        fs.writeFile('README.md', markdownString, function(err) {
-            if(err) {
-                console.log(err)
-            }
-            else {
-                console.log('Look at your spiffy new README!')
-            }
-        })
-    },
+//         const markdownString = generateMarkdown(userInput)
 
+//         // TODO: Create a function to write README file
+//         fs.writeFile('README.md', markdownString, function(err) {
+//             if(err) {
+//                 console.log(err)
+//             }
+//             else {
+//                 console.log('Look at your spiffy new README!')
+//             }
+//         })
+//     },
+
+//     )}
+
+.then(function(data) {
+
+    // Bonus: Generate the name of your user file from their input
+          
+        
+    const filename =
+    data.name
+      .toLowerCase()
+      .split(' ')
+      .join('') + '.json';
     
-   
-    )}
-
+    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
+    if (err) {
+      return console.log(err);
+    }
+    
+        console.log('Success!');
+        });
+    });
 // Function call to initialize app
 init();
 
