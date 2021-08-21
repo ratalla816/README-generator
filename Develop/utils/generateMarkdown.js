@@ -6,7 +6,16 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ![badge](https://img.shields.io/github/languages/top/${data.github}/${data.repo})
-  <br/> 
+  <br> 
+  ![badge](https://img.shields.io/github/languages/count/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/github/issues/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/github/issues-closed/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/github/last-commit/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/badge/license-${data.license}-important)
   
   ## Description
   
@@ -14,7 +23,7 @@ function generateMarkdown(data) {
  
   ## Table of Contents
   - [Description](#description)
-  - [Installation](#installation)
+  - [Documentation](#documentation)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
   - [Features](#features)
@@ -23,8 +32,8 @@ function generateMarkdown(data) {
   - [Testing](#testing)
   - [Contact](#contact)
 
-  ## Installation
-  ${data.installation}
+  ## Documentation
+  ${data.documentation}
  
   ## Usage
   ${data.usage}
@@ -40,7 +49,7 @@ function generateMarkdown(data) {
     
   ## License
   ![badge](https://img.shields.io/badge/license-${data.license}-important)
-  <br/>
+  <br>
   Permission to use this application is granted under the ${data.license} license. <https://opensource.org/licenses/${data.license}>
 
 
@@ -48,7 +57,7 @@ function generateMarkdown(data) {
   ${data.testing}
 
   ## Contact:
-  Holler at me! <a href="mailto:${data.email}">${data.email}</a><br>
+  Holler at me! <a href="mailto:${data.email}">${data.email}</a>
  `;
 
 }

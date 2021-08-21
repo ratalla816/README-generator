@@ -38,8 +38,8 @@ const questions = [
     
     {
         type: "input",
-        name: "installation",
-        message: "Describe the installation process."
+        name: "documentation",
+        message: "Describe the installation process and operating instructions."
     },
     
     {
