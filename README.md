@@ -43,12 +43,12 @@
   This application will be used as a form template to create high-quality customized README files. 
 
   ## Screenshot
-  ![Screenshot](develop/utils/images/screenshot.jpg)
+  ![Screenshot](assets/images/screenshot.jpg)
   
   ## Tutorial
   preview
   <br>
-  ![Screenshot](develop/utils/images/walkthrough.gif)
+  ![Screenshot](assets/images/walkthrough.gif)
  <br>
  <br>
   View the full tutorial here: <https://drive.google.com/file/d/1wrFo8fdGNJoPk3GhGUpTsEf6M8YiS3vx/view>
