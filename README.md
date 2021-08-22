@@ -51,7 +51,11 @@
   The main features include badges that indicate the primary coding languages used in the application, as well as the type of license used. It also allows the user to display images and their email address. 
   
   # Acknowledgements
-  Rob Atalla, Nathan Szurek (Tutor)
+  Rob Atalla
+  <br>
+  Nathan Szurek (Tutor)
+  <br>
+  Node.js Challenge: Professional README Generator - KU Coding Bootcamp, Module 9 Challenge Assignment © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand Confidential and Proprietary. All Rights Reserved.
     
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
