@@ -21,7 +21,6 @@
   - [Description](#description)
   - [Documentation](#documentation)
   - [Usage](#usage)
-  - [Screenshot](#screenshot)
   - [Tuorial](#tutorial)
   - [Features](#features)
   - [Acknowledgements](#acknowledgements)
@@ -41,10 +40,6 @@
  
   ## Usage
   This application will be used as a form template to create high-quality customized README files. 
-
-  ## Screenshot
-  ![Screenshot](assets/images/screenshot.jpg)
-  
   ## Tutorial
   preview
   <br>
