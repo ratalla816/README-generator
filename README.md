@@ -46,9 +46,12 @@
   ![Screenshot](develop/utils/images/screenshot.jpg)
   
   ## Tutorial
-  
+  preview
+  <br>
   ![Screenshot](develop/utils/images/walkthrough.gif)
-
+ <br>
+ <br>
+  View the full tutorial here: <https://drive.google.com/file/d/1wrFo8fdGNJoPk3GhGUpTsEf6M8YiS3vx/view>
   ## Features
   The main features include badges that indicate the primary coding languages used in the application, as well as the type of license used. It also allows the user to display images and their email address. 
   
