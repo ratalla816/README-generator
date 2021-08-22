@@ -1,3 +1,9 @@
+//    _____
+//   |A .  |
+//   | / \ |
+//   |( . )|
+//   |  T  |
+//   ---"--- 
 // TODO: Include packages needed for this application
 const generateMarkdown =require("./utils/generateMarkdown.js");
 const inquirer = require("inquirer");
